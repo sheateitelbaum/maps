@@ -1,0 +1,74 @@
+*{
+     box-sizing: border-box;
+ }
+            
+ html,
+ body {
+     height: 100%;
+     margin: 0px;
+ }
+            
+#map {
+     height: 90%;
+     width: 75%;
+     
+}
+            
+ #searchbar {
+     height: 10%;
+     width: 100%;
+     background-color: deepskyblue;
+     border-bottom: 1px solid black;
+     text-align: center;
+     padding: .5% 0;
+
+     
+}
+            
+#searchInput {
+     padding: 1% 0;
+}
+            
+#sidebar {
+     max-height: 90%;
+     width: 25%;
+     background-color: deepskyblue;
+     float: left;
+     overflow-y: auto;
+
+
+}
+            
+.list {
+     height: 30px;
+     width: 100%;
+     padding: 1% 0;
+     background-color: lightskyblue;
+     border: 1px solid blue;
+}
+            
+ul {
+     padding: 1px;
+}
+            
+li {
+     list-style: none;
+     text-align: center;
+}
+            
+.delete {
+     float: right;
+     color: red;
+     background: transparent;
+}
+            
+.titleButton {
+     background: transparent;
+     border: none;
+     padding: .5% 0;
+}
+            
+.titleButton:hover,
+.delete:hover {
+cursor: pointer;
+}
